@@ -12,3 +12,4 @@
 .stop p.stop-address{color:#c8b995;font-size:9px;letter-spacing:.015em;margin:0 0 5px;line-height:1.5}
 @media(min-width:701px){.section-heading h2{font-size:36px}.timeline{padding-top:99px}.timeline-rail{top:78px}.stop-time{font-size:15px}.stop-index{font-size:8px;min-height:21px}.stop h3{font-size:clamp(20px,1.8vw,25px)}.stop p{font-size:11px;line-height:1.75;max-width:245px}.stop p.stop-address{font-size:10px}.place-link{font-size:8px}}
 @media(max-width:700px){.section-heading h2{font-size:39px}.section-heading>p{font-size:11px;line-height:1.8}.stop-time{font-size:14px}.stop-index{font-size:7px}.stop h3{font-size:24px;line-height:1.18}.stop p{font-size:11px;line-height:1.75}.stop p.stop-address{font-size:10px}.place-link{font-size:7px}}
+.place-link{font-family:var(--sans);font-weight:600}
