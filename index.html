@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#171816" />
+  <meta name="description" content="Một buổi hẹn đầu tiên, được sắp xếp thành những khoảnh khắc đáng nhớ." />
+  <title>First Date Timeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Italianno&family=Manrope:wght@300;400;500;600&family=Playfair+Display:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <main class="page-shell">
+    <header class="topline">
+      <a class="wordmark" href="#top" aria-label="First Date, về đầu trang"><span class="wordmark-mark">mp.</span></a>
+      <div class="topline-right"><span class="status-dot"></span><span>SAVE THE FIRST FOR THE MEMORIES</span></div>
+    </header>
+
+    <section class="intro" id="top" aria-labelledby="page-title">
+      <div class="intro-meta"><span>THE BEGINNING</span><span class="meta-rule"></span><span>HANOI</span></div>
+      <div class="title-lockup">
+        <p class="script-word title-script">The</p>
+        <h1 id="page-title">FIRST DATE</h1>
+        <p class="script-word title-tail">Timeline<span class="title-period">.</span></p>
+      </div>
+      <div class="intro-bottom">
+        <p class="intro-note">Anh sẽ cho em thấy,<br>thế nào là yêu và được yêu ^^</p>
+        <a class="scroll-cue" href="#timeline" aria-label="Cuộn đến lịch trình"><span>SCROLL TO BEGIN</span><span class="cue-line"></span></a>
+        <div class="date-stamp"><span>THỨ TƯ</span><strong>14</strong><span>THÁNG MƯỜI<br>2026</span></div>
+      </div>
+      <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+    </section>
+
+    <section class="timeline-section" id="timeline" aria-labelledby="timeline-heading">
+      <div class="section-heading reveal">
+        <div><span class="eyebrow">THE PLAN</span><h2 id="timeline-heading">A little <em>first date</em></h2></div>
+        <p>Không cần vội. Mình cứ để buổi tối<br class="desktop-break"> đưa hai đứa đi qua từng khoảnh khắc.</p>
+      </div>
+      <div class="timeline" id="timelineTrack">
+        <div class="timeline-rail" aria-hidden="true"><span class="rail-fill" id="railFill"></span></div>
+        <article class="stop stop-right reveal" style="--i:0">
+          <span class="node" aria-hidden="true"></span><div class="stop-content">
+            <div class="stop-time">17:15</div><span class="stop-index">01 / ARRIVAL</span>
+            <h3>Đón em tại nhà</h3><p>Chuyến đi bắt đầu.</p>
+          </div><div class="stop-side-note">THE FIRST HELLO</div>
+        </article>
+        <article class="stop stop-left reveal" style="--i:1">
+          <span class="node" aria-hidden="true"></span><div class="stop-content">
+            <div class="stop-time">18:00 — 19:30</div><span class="stop-index">02 / SOMETHING GOOD</span>
+            <h3>Takeya Ramen - Izakaya</h3><p class="stop-address">172 Phan Kế Bính, Hà Nội</p><p>Nhom nhom.</p><a class="place-link" href="https://www.google.com/maps/search/?api=1&amp;query=Takeya+Ramen+Izakaya%2C+172+Phan+K%E1%BA%BF+B%C3%ADnh%2C+Hanoi" target="_blank" rel="noreferrer">MỞ BẢN ĐỒ <span>↗</span></a>
+          </div><div class="stop-side-note">SOMETHING TO SHARE</div>
+        </article>
+        <article class="stop stop-right reveal" style="--i:2">
+          <span class="node" aria-hidden="true"></span><div class="stop-content">
+            <div class="stop-time">20:00 — 21:30</div><span class="stop-index">03 / MAKE A MEMORY</span>
+            <h3>Bestie Booth</h3><p class="stop-address">Số 14, ngõ 84 Chùa Láng, Hà Nội</p><p>Những khoảnh khắc đầu tiên.</p><a class="place-link" href="https://www.google.com/maps/search/?api=1&amp;query=Bestie+Booth%2C+14+ng%C3%B5+84+Ch%C3%B9a+L%C3%A1ng%2C+Hanoi" target="_blank" rel="noreferrer">MỞ BẢN ĐỒ <span>↗</span></a>
+          </div><div class="stop-side-note">A LITTLE KEEPSAKE</div>
+        </article>
+        <article class="stop stop-left final-stop reveal" style="--i:3">
+          <span class="node" aria-hidden="true"></span><div class="stop-content">
+            <div class="stop-time">22:00</div><span class="stop-index">04 / UNTIL NEXT TIME</span>
+            <h3>Đưa em về nhà</h3><p>Kết thúc, đưa em về nhà an toàn.</p>
+          </div><div class="stop-side-note">TO BE CONTINUED</div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer reveal"><span class="footer-mark">mp.</span><p>HERE’S TO THE FIRST OF MANY.</p><span class="footer-date">HANOI · 14/10/2026</span></footer>
+  </main>
+</body>
+</html>
